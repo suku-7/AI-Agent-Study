@@ -1,0 +1,22 @@
+.idea
+.env
+.venv
+.cadence
+.ipynb_checkpoints
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Python cache
+__pycache__/
+# PyCharm specific files
+.idea/
+*.iml
+# VS Code specific files
+.vscode/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.DS_Store
+**/.DS_Store
