@@ -101,5 +101,13 @@ def main():
     print("\n최종 결과 :")
     print(result['dashboard_report'])
 
+    # 그래프 구조 출력
+    try:
+        # 그래프 시각화
+        mermaid_png = app.get_graph().draw_mermaid_png()
+        with open("./05_parallel_execution.png", "wb") as f:
+            f.write(mermaid_png)
+    except Exception as e:
+        print(f"그래프 출력 실패: {e}")
 if __name__ == "__main__":
     main()
